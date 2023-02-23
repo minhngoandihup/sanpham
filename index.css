@@ -1,0 +1,491 @@
+body{
+    margin: 0;
+    background-color:rgb(231, 231, 231) ;
+}
+.container{
+width: 100%;
+height: 90px;
+background: white;
+
+}
+.logo img{
+    padding-left: 40px;
+    padding-top: 7px;
+}
+
+
+.search1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; top: 7px;left: 10%;
+    background: none;
+    border: 1px solid rgb(170, 168, 168);
+    border-radius: 5px;
+    height: 40px;
+}
+.tim{
+    border: none;
+    color: blue;
+    cursor: pointer;
+    height: 40px;
+   
+}
+.tim p{
+    position:relative;top: -5px;
+}
+.tim:hover{
+    background-color:rgba(10, 104, 255, 0.2);
+}
+#search-text{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    background:none;
+    width: 630px;
+}
+#search-btn{
+background:none;
+border: none;
+padding: 10px 5px;
+cursor: pointer;
+
+}
+.trangchu{
+    position: absolute;top: 10px;right: 80px;
+    float: left;
+   
+}
+.trangchu1{
+    float: left;
+    border:none;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+.trangchu1 img{
+    padding-top: 10px;
+}
+.trangchu1 span{
+    position:relative;top: -8px;
+}
+.trangchu2{
+    float: left;
+    border: none;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+.trangchu2 img{
+    padding-top: 10px;
+}
+.trangchu1:hover{
+    background-color: rgba(39, 39, 42, 0.24);
+}
+.trangchu2:hover{
+ background-color: rgba(10, 104, 255, 0.2);
+}
+
+.menu{
+    margin-left: 110px;
+}
+.menu a{
+    color: rgb(128, 128, 137);
+    margin-right: 8px;
+}
+.a{
+    text-decoration: none;
+}
+.thuvien{
+    width: 100%;
+    height: 40px;
+}
+.chuathuvien{
+    margin-left: 12%;
+    margin-top: 10px;
+}
+.chuathuvien a span{
+    margin-right: 10px;
+    font-size: 14px; 
+}
+.a1>span{
+   margin-bottom: 0px;
+   color:  rgb(128, 128, 137);
+}
+.a1:hover{
+    text-decoration: underline;
+}
+.view{
+    display: flex;
+    margin-left: 13%;
+    margin-right: 13%;
+    height: 800px;
+    background: white;
+}
+.fullbentrai{
+    padding: 16px 0 16px 16px;
+    width: 40%;
+}
+.fullha{
+    margin-top: 10px;
+}
+.fullcs{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    -webkit-box-align: center;
+}
+.abc{
+    cursor: pointer;
+    margin-right: 8px;
+}
+.abd{
+    margin-left: 8px;
+}
+.hinhmh{
+    padding-top: 30px;
+    padding-left:50px;
+}
+.kengang{
+    margin: 0px 10px;
+    margin-left: 10px;
+    width: 1px;
+    background: rgb(242, 242, 242);
+    flex-shrink: 0;  
+}
+.fullbenphai{
+    flex: 1 1 0%;
+}
+.header h1{
+font-size: 23px;
+font-weight: 200;
+}
+.header h6{
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(120, 120, 120);
+}
+.danhgia{
+    margin-top: -21px;
+}
+.body{
+    display: flex;
+    padding: 0px 24px 0px 0px;
+}
+.left{
+    flex: 1 1 0%;
+    padding-right: 12px;
+}
+.right{
+    width: 240px;
+}
+
+.fullgia{
+    border: none;
+    border-radius: 5px;
+    width: 430px;
+    height: 90px;
+    background:rgb(242, 242, 242) ;
+}
+.gia{
+    display: flex;
+    align-items: flex-end;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.giachinhthuc{
+    font-size: 32px;
+    font-weight: 500px;
+    margin-right: 8px;
+    color: red;
+}
+.giagiam{
+    color: rgb(128, 128, 137);
+    text-decoration: line-through;
+}
+.sale{
+    color: red;
+
+}
+.quatroiroi{
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 260px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 3px;
+    color: rgb(64, 45, 161);
+    background-color:  rgb(242, 240, 254);
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-top: 3px; 
+
+}
+.quatroi1{
+    margin-top: 3px;
+    cursor: pointer;
+}
+.quatroi2{
+    margin-left: 5px;
+}
+.switch{
+    color:  rgb(142, 142, 142);
+    font-size: 15px;
+    font-weight: 400;
+}
+.switch span{
+    color: rgb(36, 36, 36);
+    font-weight: 500;
+}
+.lop1{
+    cursor: default;
+    margin: 8px 10px 0px 0px;
+    padding: 8px;
+    color: black;
+    font-size: 13px;
+    min-width: 80px;
+    position: relative;
+}
+.a2{
+    border: 1px solid rgb(13, 92, 182);
+    background-color: rgb(229, 242, 255);
+}
+.a3{
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
+.magiam{
+    display: flex;
+
+}
+.khunggiam{
+    width: 60px;
+    height: 20px;
+    border: 1px solid rgb(13, 92, 182);
+    font-size: 14px;
+    color: rgb(13, 92, 182);
+    margin-right: 10px;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.a4{
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: 800px;
+    cursor: pointer;
+}
+.a5{
+    color:  rgb(13, 92, 182);
+    cursor: pointer;
+    font-size: 14px;
+}
+.boxne{
+    display: flex;
+}
+.box1{
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 5px;
+    width: 200px;
+    height: 70px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.boxnho{
+    margin-left: 5px;
+}
+.mau1{
+    color: rgb(0, 171, 86);
+}
+.box2{
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 170px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    color: rgb(64, 45, 161);
+    background-color:  rgb(242, 240, 254);
+    font-size: 11px;
+    font-weight: 300;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.hinhnhoxiu{
+    display: flex;
+    align-items: center;
+}
+.tennua{
+    display: flex;
+    flex-direction: column;
+}
+.box3{
+    margin-top: 5px;
+}
+.cay{
+    height: 26px;
+    width: 20px;
+    text-align: center;
+}
+.group{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.button{
+    margin-top: 10px;
+    display: flex;
+}
+
+.mua{
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.qwe{
+    width: 50%;
+    height: 50px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.rtx{
+    display: flex;
+   border:1px solid  rgb(13, 92, 182);
+   color:  rgb(13, 92, 182);
+   flex-direction: column;
+   align-items: center;
+   background-color: white;
+   font-weight: 700;
+   padding-top: 10px;
+   cursor: pointer;
+}
+.lai{
+    font-weight: 100;
+}
+
+.dautien{
+    width: 50px;
+    height: 50px;
+}
+.boxtren{
+    border:1px solid rgb(238, 238, 238);
+    height: 400px;
+}
+.phanlogo{
+    
+    display: flex;
+}
+.name span{
+    font-weight: 700;
+}
+.yz{
+    margin: 5px 5px;
+}
+.border-leght{
+    width: 1px;
+    height: 16px;
+    background-color:rgb(242, 242, 242) ;
+}
+.phandanhgia{
+    display: flex;
+    flex: 1 1 0%;
+}
+.kkk{
+    margin-left: 25px;
+}
+.luotsao{
+    font-weight: 500;
+    font-size: 17px;
+}
+.chungdanhgia{
+    font-size: 11px;
+    color:  rgb(120, 120, 120);
+}
+.caiso1{
+    display: flex;
+    border: 1px solid rgb(13, 92, 182);
+    align-items: center;
+    -webkit-box-align: center;
+   padding: 6px 9px;
+   width: 90px;
+    border-radius: 5px;
+    margin:5px 5px;
+    cursor: pointer;
+}
+.boxduoi{
+    display: flex;
+}
+.caiso1>span{
+    font-size: 13px;
+    color:rgb(13, 92, 182) ;
+    font-weight: 600;
+}
+.gachngangnetroi{
+    height: 150px;
+    width: 100%;
+    border: 1px solid rgb(242, 242, 242) ;
+}
+.laila1caibox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 9px 5px;
+}
+.doanvan1{
+    color: rgb(120, 120, 120);
+    font-size: 13px;
+}
+.doanvan2{
+    font-size: 15px;
+    font-weight: 500;
+}
+.jjjj{
+    color: rgb(13, 92, 182);
+    cursor: pointer;
+}
+.phancuoi{
+    display: flex;
+}
+.boxco3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxco3 span{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 8px;
+    font-weight: 300;
+}
+.caicuoicung{
+    border: 1px solid rgb(238, 238, 238);
+    margin-top: 16px;
+    padding: 8px 12px;
+    display: flex;
+}
+.phan1ne{
+    font-weight: 600;
+}
+.phan2ne{
+    color: rgb(120, 120, 120);
+    font-size: 13px;
+}
+.caicuoicung button{
+    color: rgb(13, 92, 182);
+    border: 1px solid rgb(13, 92, 182);
+    border-radius: 4px;
+    margin-left: 40px;
+    cursor: pointer;
+}
